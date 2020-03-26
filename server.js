@@ -69,7 +69,7 @@ app.post("/api/shorturl/new", verifyURL, async (req,res )=>{
   try{    
     const hash = shortKey.generate(6);
     await URL.create({'original_url':req.url, "hash": hash})
-    res.json({'original_url':req.url , "short_url": `${req.protocol}://${req.hostname}api/shorturl/${hash}`}) 
+    res.json({'original_url':req.url , "short_url": `${req.protocol}://${req.hostname}/api/shorturl/${hash}`}) 
   }
   catch(error){
     res.json({error})
