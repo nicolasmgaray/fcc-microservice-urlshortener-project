@@ -1,5 +1,12 @@
-# API Project: URL Shortener Microservice for freeCodeCamp
+# FCC: Microservice URL Shortener Project
 
+Part of the FCC Infosec Certification challenges
+
+Hosted on Glitch: [https://fcc-microservice-urlshortener-project.glitch.me/](https://fcc-microservice-urlshortener-project.glitch.me/).
+
+## NOTE !
+
+This is a proof of concept. Because it is hosted on a long domain, using this microservice is pointless. But it can be hosted in a short domain and modify the endpoints so that it has practical utility.
 
 ### User Stories
 
